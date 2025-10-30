@@ -124,7 +124,7 @@ graph LR
     end
 
     subgraph "Self Protocol SDK"
-        I[@selfxyz/qrcode]
+        I["selfxyz/qrcode"]
         J[SelfAppBuilder]
         K[getUniversalLink]
     end
